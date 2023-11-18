@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint \"./**/*.{ts,tsx,js,jsx}\"",
-    "lint:fix": "eslint --fix \"./**/*.{ts,tsx,js,jsx}\"",
-    "format": "prettier --write \"./**/*.{ts,tsx,js,jsx}\" --config ./.prettierrc"
+    "lint:fix": "eslint --fix \"./**/*.{ts,tsx,js,jsx,html,css}\"",
+    "format": "prettier --write \"./**/*.{ts,tsx,js,jsx,html,css}\" --config ./.prettierrc"
   },
   "dependencies": {
     "next": "14.0.3",
