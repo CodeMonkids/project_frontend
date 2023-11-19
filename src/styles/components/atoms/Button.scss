@@ -1,0 +1,11 @@
+@import '@/styles/base/color';
+
+button {
+  display: grid;
+  place-content: center;
+  padding: 6px 12px;
+  color: $color-pink300;
+  background: $color-pink100;
+  border: $color-pink300 1px solid;
+  border-radius: 5px;
+}

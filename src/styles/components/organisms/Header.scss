@@ -1,0 +1,25 @@
+@import '@/styles/base/color';
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  background: $color-white;
+}
+
+.title {
+  display: flex;
+  color: $color-pink300;
+  font-size: 48px;
+}
+
+.button-box {
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,3 +1,7 @@
+@import 'base/reset';
+@import 'base/font';
+
 * {
   box-sizing: border-box;
+  font-family: 'Jua', sans-serif !important;
 }
