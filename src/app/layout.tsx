@@ -1,9 +1,9 @@
 import '../styles/globals.css';
 
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Jua } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const jua = Jua({ weight: ['400'], subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body className={inter.className}>{children}</body>
+      <body className={jua.className}>{children}</body>
     </html>
   );
 }
