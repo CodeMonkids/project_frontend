@@ -11,4 +11,10 @@ export const Wrapper = styled.button`
   border: ${({ theme }) => theme.palette.text.main} 1px solid;
 
   font-size: 15px;
+
+  cursor: pointer;
+
+  &:active {
+    transform: translateY(1px);
+  }
 `;
