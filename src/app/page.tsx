@@ -1,7 +1,3 @@
-'use client';
-
-import Header from '@/components/organisms/Header';
-
 export default function Home() {
-  return <Header />;
+  return <main>main</main>;
 }

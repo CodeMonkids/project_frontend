@@ -1,4 +1,8 @@
-const theme = {
+import { Theme } from '@emotion/react';
+
+import typography from '@/theme/typography';
+
+const theme: Theme = {
   palette: {
     common: {
       white: '#FEFEFE',
@@ -12,7 +16,12 @@ const theme = {
       200: '#FFEDED',
       300: '#FF90C2',
     },
+    gray: {
+      100: '#F6F6F6',
+      200: '#808080',
+    },
   },
+  typography,
 };
 
 export default theme;

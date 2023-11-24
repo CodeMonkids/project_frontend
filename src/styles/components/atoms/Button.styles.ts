@@ -10,11 +10,8 @@ export const Wrapper = styled.button`
   background-color: ${({ theme }) => theme.palette.pink[100]};
   border: ${({ theme }) => theme.palette.text.main} 1px solid;
 
+  ${({ theme }) => theme.typography.NPS.bold}
   font-size: 15px;
 
   cursor: pointer;
-
-  &:active {
-    transform: translateY(1px);
-  }
 `;

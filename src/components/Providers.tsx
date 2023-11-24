@@ -4,7 +4,7 @@ import { Global, ThemeProvider } from '@emotion/react';
 import { ReactElement } from 'react';
 
 import globalStyles from '@/styles/global.styles';
-import theme from '@/styles/theme/theme';
+import theme from '@/theme/theme';
 
 interface Props {
   children: ReactElement;
