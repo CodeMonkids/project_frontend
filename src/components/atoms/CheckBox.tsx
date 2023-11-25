@@ -4,17 +4,19 @@ import {
   CheckBoxLabel,
   NoneInput,
 } from '@/styles/components/atoms/CheckBox.styles';
+import { InputType } from '@/types/type';
 
 interface Props {
   id: string;
+  name: string;
 }
 
-export default function CheckBox({ id }: Props) {
+export default function CheckBox({ id, name }: Props) {
   const [isClicked, setIsClicked] = useState(false);
   const handleClick = () => setIsClicked(!isClicked);
   return (
     <>
-      <NoneInput type={'checkbox'} id={id} />
+      <NoneInput type={InputType.CHECKBOX} id={id} name={name} />
       <CheckBoxLabel htmlFor={id} isClicked={isClicked} onClick={handleClick} />
     </>
   );

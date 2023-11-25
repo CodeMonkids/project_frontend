@@ -37,9 +37,23 @@ export const FlexBetween = styled.div`
 `;
 
 export const CheckBoxContainer = styled.div`
+  height: 100%;
   display: flex;
   align-items: center;
   gap: 6px;
+`;
+
+export const ForgotPassword = styled.div`
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  & > svg {
+    width: 10px;
+    height: 10px;
+    fill: ${({ theme }) => theme.palette.common.black};
+  }
 `;
 
 export const ButtonBox = styled.div`

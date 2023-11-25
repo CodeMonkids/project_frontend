@@ -32,6 +32,16 @@ const globalStyles = css`
     text-decoration: none;
   }
 
+  button {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input {
+    outline: none;
+  }
+
   h1,
   h2,
   h3,
