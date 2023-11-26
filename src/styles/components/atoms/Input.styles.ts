@@ -38,6 +38,7 @@ export const EyeButton = styled.button`
   background-color: ${({ theme }) => theme.palette.pink[100]};
   border: none;
 
+  cursor: pointer;
   & > svg {
     width: 15px;
     height: 15px;

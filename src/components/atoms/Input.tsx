@@ -40,7 +40,7 @@ export default function Input({
               placeholder={placeholder}
             />
             <EyeButton onClick={handleClickEyeButton}>
-              {isClickedEye ? <EyeClosedIcon /> : <EyeIcon />}
+              {isClickedEye ? <EyeIcon /> : <EyeClosedIcon />}
             </EyeButton>
           </InputBox>
         );
