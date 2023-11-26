@@ -1,5 +1,7 @@
 import '@emotion/react';
 
+import React from 'react';
+
 declare module '@emotion/react' {
   export interface Theme {
     palette: {
@@ -14,6 +16,26 @@ declare module '@emotion/react' {
         100: React.CSSProperties['color'];
         200: React.CSSProperties['color'];
         300: React.CSSProperties['color'];
+      };
+      gray: {
+        100: React.CSSProperties['color'];
+        200: React.CSSProperties['color'];
+      };
+    };
+    typography: {
+      NPS: {
+        regular: {
+          fontFamily: React.CSSProperties['fontFamily'];
+          fontWeight: React.CSSProperties['fontWeight'];
+        };
+        bold: {
+          fontFamily: React.CSSProperties['fontFamily'];
+          fontWeight: React.CSSProperties['fontWeight'];
+        };
+        extraBold: {
+          fontFamily: React.CSSProperties['fontFamily'];
+          fontWeight: React.CSSProperties['fontWeight'];
+        };
       };
     };
   }
