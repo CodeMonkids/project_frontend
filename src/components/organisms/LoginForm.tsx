@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import React from 'react';
 
@@ -15,7 +17,7 @@ import {
   SubmitButton,
   SubTitle,
   Title,
-} from '@/styles/components/organisms/LoginForm.styles';
+} from '@/styles/components/organisms/Authentication.styles';
 import { Page } from '@/types/page';
 import { InputType } from '@/types/type';
 

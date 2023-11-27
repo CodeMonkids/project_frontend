@@ -1,6 +1,7 @@
 'use client';
 
 import LoginForm from '@/components/organisms/LoginForm';
+import SignupForm from '@/components/organisms/SignupForm';
 import {
   Container,
   Inner,
@@ -16,6 +17,8 @@ export default function AuthTemplate({ formType }: Props) {
     switch (formType) {
       case FormType.LOGIN:
         return <LoginForm />;
+      case FormType.SIGNUP:
+        return <SignupForm />;
       default:
         return;
     }
