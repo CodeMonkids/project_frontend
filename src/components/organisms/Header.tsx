@@ -13,7 +13,9 @@ import { Page } from '@/types/page';
 export default function Header() {
   return (
     <Wrapper>
-      <Title>ㅁㅁㅈ</Title>
+      <Link href={Page.HOME}>
+        <Title>ㅁㅁㅈ</Title>
+      </Link>
       <ButtonBox>
         <Link href={Page.LOGIN}>
           <Button>로그인</Button>
